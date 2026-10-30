@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+</head>
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <a href="about.html">About Me</a> 
+    <a href="skills.html">Skills and Education</a> 
+    <a href="projects.html">Projects and Achievements</a> 
+    <a href="media.html">My Media and Interests</a> 
+    <a href="contact.html">Contact Me</a>
+</nav>
+
+<main>
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Your Message</legend>
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+                <option value="">Choose a subject</option>
+                <option value="school">School</option>
+                <option value="project">Project</option>
+                <option value="other">Other</option>
+            </select>
+
+            <br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+
+            <br><br>
+
+            <label>
+                <input type="radio" name="contact" value="email" required>
+                Email
+            </label>
+
+            <label>
+                <input type="radio" name="contact" value="phone">
+                Phone
+            </label>
+
+            <br><br>
+
+            <label>
+                <input type="checkbox" name="agree" required>
+                I agree to be contacted.
+            </label>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Send Message</button>
+        <button type="reset">Clear</button>
+
+    </form>
+</main>
+
+<footer>
+    <p>Thank you for visiting my website.</p>
+</footer>
+
+</body>
+</html>
+
